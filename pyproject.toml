@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]  # Build dependencies
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Data-Engineering_Unstructured-Data-Analysis"  # Package name
+version = "0.1.0"  # Version
+description = "Demonstrates data engineering using unstructured data for sentiment and trend analysis"  # Short description
+authors = [
+    { name = "Krishnan Paranji Ravi", email = "krishna.pr@gmail.com" }
+]
+
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["data-engineering", "unstructured-data", "sentiment-analysis", "trend-analysis"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Data Engineers",
+    "Topic :: Data Engineering Pipelines",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: Apache Software License"
+]  #
+
+dependencies = [
+]
+
+[project.urls]
+homepage = ""
+documentation = ""
+repository = "https://github.com/krishnanravi/Data-Engineering_Unstructured-Data-Analysis"
+
+[tool.setuptools.packages.find]
+where = [""]
+include = ["data_*"]
+exclude = ["tests*"]
+
+
