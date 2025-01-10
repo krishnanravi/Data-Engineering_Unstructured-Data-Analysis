@@ -23,7 +23,8 @@ classifiers = [
 ]  #
 
 dependencies = [
-    "praw"
+    "praw",
+    "pandas"
 ]
 
 [project.urls]
