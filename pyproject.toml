@@ -23,11 +23,13 @@ classifiers = [
 ]  #
 
 dependencies = [
+    "praw",
+    "pandas"
 ]
 
 [project.urls]
-homepage = ""
-documentation = ""
+homepage = "https://github.com/krishnanravi/Data-Engineering_Unstructured-Data-Analysis"
+documentation = "https://github.com/krishnanravi/Data-Engineering_Unstructured-Data-Analysis"
 repository = "https://github.com/krishnanravi/Data-Engineering_Unstructured-Data-Analysis"
 
 [tool.setuptools.packages.find]

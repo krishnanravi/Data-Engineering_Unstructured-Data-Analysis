@@ -18,17 +18,22 @@ I will be extracting the following data:
 I will be extracting the data in the form of a pandas dataframe and then save it as a csv file. 
 
 We have to decide on the data model for the data extraction. I am thinking of the following data model:
-Post
-  - Title
-  - Author
-  - Date
-  - Number of comments
-  - Post
-  - URL
-  - Score
-  - Upvotes
-  - Downvotes
-  - Awards
-  - Crossposts
+<br/>
+<h3>Post</h3>
+<ul>
+    <li>title</li>
+    <li>author</li>
+    <li>date</li>
+    <li>num_comments</li>
+    <li>post</li>
+    <li>url</li>
+    <li>score</li>
+    <li>upvotes</li>
+    <li>downvotes</li>
+    <li>awards</li>
+    <li>crossposts</li>
+</ul>
+
+Generally it is best practice to keep the ingestion layer schema as close as possible to the source data. This will help us in tracing back data quality issues back to the exact step in the pipeline where the issue was introduced including the source.
 
 
